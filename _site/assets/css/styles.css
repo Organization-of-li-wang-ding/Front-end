@@ -1,0 +1,11 @@
+.current { color: blue; }
+
+.navi1 a { display: block; color: #af9f60; text-align: center; padding: 14px 16px; text-decoration: none; float: left; }
+
+.navi1 a:hover { background-color: #6b664f; }
+
+.zhuye { background-color: #333131; color: white; }
+
+.content { background-color: #333131; color: white; }
+
+/*# sourceMappingURL=styles.css.map */

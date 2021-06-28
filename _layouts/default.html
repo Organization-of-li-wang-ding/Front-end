@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	  <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body class="zhuye">
+    <nav class="navbar navbar-default" role="navigation">{% include navigation.html %}</nav>
+    <nav class="content">{{ content }}</nav>
+
+    <ul class="breadcrumb navbar-fixed-bottom">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="#">2021</a></li>
+      <li class="active">七月</li>
+    </ul>
+  </body>
+</html>

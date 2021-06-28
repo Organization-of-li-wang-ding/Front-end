@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		".current {\n    color: blue;\n}\n\n.navi1 {\n    a{\n        display: block;\n        color: rgb(175, 159, 96);\n        text-align: center;\n        padding: 14px 16px;\n        text-decoration: none;\n        float: left;\n    }\n    a:hover {\n        background-color: rgb(107, 102, 79);\n    }\n}\n\n.zhuye {\n    background-color: rgb(51, 49, 49);\n    color: white;\n}\n\n.content {\n    background-color: rgb(51, 49, 49);\n    color: white;\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,IAAI,GACd;;AAED,AACI,MADE,CACF,CAAC,CAAA,EACG,OAAO,EAAE,KAAK,EACd,KAAK,EAAE,OAAiB,EACxB,UAAU,EAAE,MAAM,EAClB,OAAO,EAAE,SAAS,EAClB,eAAe,EAAE,IAAI,EACrB,KAAK,EAAE,IAAI,GACd;;AARL,AASI,MATE,CASF,CAAC,CAAC,KAAK,CAAC,EACJ,gBAAgB,EAAE,OAAiB,GACtC;;AAGL,AAAA,MAAM,CAAC,EACH,gBAAgB,EAAE,OAAe,EACjC,KAAK,EAAE,KAAK,GACf;;AAED,AAAA,QAAQ,CAAC,EACL,gBAAgB,EAAE,OAAe,EACjC,KAAK,EAAE,KAAK,GACf"
+}

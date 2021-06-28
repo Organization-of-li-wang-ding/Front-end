@@ -1,0 +1,27 @@
+.current {
+    color: blue;
+}
+
+.navi1 {
+    a{
+        display: block;
+        color: rgb(175, 159, 96);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        float: left;
+    }
+    a:hover {
+        background-color: rgb(107, 102, 79);
+    }
+}
+
+.zhuye {
+    background-color: rgb(51, 49, 49);
+    color: white;
+}
+
+.content {
+    background-color: rgb(51, 49, 49);
+    color: white;
+}
