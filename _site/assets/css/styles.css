@@ -1,4 +1,4 @@
-.current { color: blue; }
+.current { color: white; }
 
 .navi1 a { display: block; color: #af9f60; text-align: center; padding: 14px 16px; text-decoration: none; float: left; }
 
@@ -7,5 +7,19 @@
 .zhuye { background-color: #333131; color: white; }
 
 .content { background-color: #333131; color: white; }
+
+#div1, #div2, #div3 { width: 50%; height: 300px; border: 1px solid #ccc; float: left; box-sizing: border-box; text-decoration: none; }
+
+.button1 { text-align: center; background-color: #333131; margin: auto; width: 100%; border: 3px solid #af9f60; padding: 10px; }
+
+.center { width: 200px; position: absolute; left: 50%; margin-left: -100px; background-color: aqua; }
+
+.div_banner { width: 100%; height: auto; padding: 0; display: -webkit-flex; display: flex; align-items: center; }
+
+.btn_shift { width: 40px; height: 80px; margin: 0; padding: 0; border: none; display: inline-block; text-align: center; align-items: center; text-decoration: none; font-size: 35px; visibility: hidden; background-color: #111; opacity: 0.7; -webkit-transition-duration: 0.5s; transition-duration: 0.5s; cursor: pointer; z-index: 8999; }
+
+.btn_shift:hover { background-color: #efefef; opacity: 0.7; }
+
+.img_banner { width: 100%; height: 100%; max-height: 600px; flex: 1; margin-left: -40px; margin-right: -40px; cursor: pointer; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 	  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 	  <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("button").click(function(){
+          $("#div1").fadeIn();
+          $("#div2").fadeIn("slow");
+          $("#div3").fadeIn(1000);
+        });
+      });
+      </script>
   </head>
   <body class="zhuye">
     <nav class="navbar navbar-default" role="navigation"><div class="navi1"> 
@@ -22,8 +31,9 @@
        <a href="/staff.html" >Staff</a>
     
 </div></nav>
-    <nav class="content"><h1>hello world!</h1></nav>
-
+    <nav class="content"><p style="width: 1300px;height:7px;text-align:center;color: rgb(175, 159, 96);">这个学期我们学到了很多东西哦</p>
+<button class="button1">点击查看</button>
+<br><br></nav>
     <ul class="breadcrumb navbar-fixed-bottom">
       <li><a href="/index.html">Home</a></li>
       <li><a href="#">2021</a></li>
