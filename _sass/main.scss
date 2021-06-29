@@ -1,7 +1,12 @@
 .current {
     color: white;
 }
-
+//全局样式
+.zhuye {
+    background-color: rgb(51, 49, 49);
+    color: white;
+}
+//导航栏的样式
 .navi1 {
     a {
         display: block;
@@ -15,12 +20,7 @@
         background-color: rgb(107, 102, 79);
     }
 }
-
-.zhuye {
-    background-color: rgb(51, 49, 49);
-    color: white;
-}
-
+//对于home页面的样式配置
 .content {
     background-color: rgb(51, 49, 49);
     color: white;
@@ -36,7 +36,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-
+//按钮的样式
 .button1 {
     text-align: center;
     background-color: rgb(51, 49, 49);
@@ -45,11 +45,25 @@
     border: 3px solid rgb(175, 159, 96);
     padding: 10px;
 }
-
+//居中对齐
+//博客的宽度为650px
+//相对定位(350,0)的元素
 .center{
-    width: 200px;
+    width: 650px;
     position: absolute;
-    left: 50%;
-    margin-left: -100px; // 该元素宽度的一半，即100px
-    background-color: aqua;    
+    left:350px;
+    top:50px;
+    margin-left: -100px;
+    background-color: rgb(51, 49, 49);   
+    vertical-align:middle
 }
+code{
+    font-size: 12px;
+    font-family: Consolas, monospace, serif;
+    color: #dd0055;
+    padding: 1 4px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    background: #fafafa;
+}
+
