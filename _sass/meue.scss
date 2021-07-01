@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background: url("images/bg.gif");
 }
 
 body,
@@ -22,13 +21,11 @@ td {
 }
 
 .menu_box th {
-    background: url("images/menu_list_icon.gif") no-repeat center;
     line-height: 22px;
     width: 10px;
 }
 
 .menu_box td {
-    background: url("images/menu_list_split.gif") no-repeat left bottom;
     line-height: 20px;
 }
 
@@ -57,18 +54,6 @@ td {
     padding-left: 15px;
     font-weight: bold;
     line-height: 25px;
-}
-
-.ctrl_menu_title_bg {
-    background: url("images/menu_title_bg.gif");
-}
-
-.top_bg {
-    background: url("images/top_bg.gif");
-}
-
-.logo_bg {
-    background: url("images/logo_bg.gif");
 }
 
 #top_nav_menu {
