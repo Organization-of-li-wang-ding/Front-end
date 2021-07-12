@@ -17,6 +17,10 @@
 
 code { font-size: 12px; font-family: Consolas, monospace, serif; color: #dd0055; padding: 1 4px; border: 1px solid #dddddd; border-radius: 3px; background: #fafafa; }
 
+.blog h2 { font-family: serif; color: #1b1c1d; margin: 1rem 0; }
+
+.video { width: 400px; position: relative; left: 110px; top: 0px; margin-left: -100px; background-color: #333131; vertical-align: middle; }
+
 .outer { width: 790px; height: 340px; margin: 80px auto; position: relative; left: 0px; top: -100px; }
 
 .img li { position: absolute; list-style: none; top: 0px; left: 50px; }

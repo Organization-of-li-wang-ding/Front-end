@@ -48,16 +48,16 @@
 //居中对齐
 //博客的宽度为650px
 //相对定位(350,0)的元素
-.center{
+.center {
     width: 650px;
     position: absolute;
-    left:350px;
-    top:50px;
+    left: 350px;
+    top: 50px;
     margin-left: -100px;
-    background-color: rgb(51, 49, 49);   
-    vertical-align:middle
+    background-color: rgb(51, 49, 49);
+    vertical-align: middle;
 }
-code{
+code {
     font-size: 12px;
     font-family: Consolas, monospace, serif;
     color: #dd0055;
@@ -67,3 +67,20 @@ code{
     background: #fafafa;
 }
 
+.blog {
+    h2 {
+        font-family: serif;
+        color: #1b1c1d;
+        margin: 1rem 0;
+    }
+}
+
+.video {
+    width: 400px;
+    position: relative;
+    left: 110px;
+    top: 0px;
+    margin-left: -100px;
+    background-color: rgb(51, 49, 49);
+    vertical-align: middle;
+}
