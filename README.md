@@ -1,6 +1,6 @@
 # Front-end
 
-### 项目介绍
+### 项目背景介绍
 
 #### 我们的项目是一个基于jekyll的个人博客
 #### 首页home页面主要是一个banner，可以插入其他链接
@@ -10,19 +10,27 @@
 #### 网页页脚是一个固定的导航。
 
 
-### 运行方式
-
+### 安装和运行方式
 #### 查看gem源
 <code>gem sources -l</code>
-
 #### 更新gem
 <code>gem update --system</code>
-
 #### 安装jekyll
 <code>gem install jekyll</code>
-
 #### 激活bundle
 <code>bundle</code>
-
 #### 启动jekyll
 <code>jekyll serve</code>
+
+### Badge
+#### https://github.com/Happy-orange-juice/Happy-orange-juice.github.io
+
+### Maintainers
+#### @Happy-orange-juice
+
+### Contributors
+#### @895201599 
+#### @vincentwoody
+
+### License
+#### MIT © Richard Littauer
