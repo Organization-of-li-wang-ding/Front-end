@@ -9,8 +9,7 @@
 #### blog界面是静态博客网页。同时我们实现了一个用户管理侧边栏。
 #### 网页页脚是一个固定的导航。
 #### githubpage https://organization-of-li-wang-ding.github.io/Front-end/
-#### 目前Githubpage加载不全，css都显示不出来。可能是还没有完全上传上去2021/7/15
-#### 现在要看结果只能按照下面的安装和运行方式
+
 
 
 ### 安装和运行方式
