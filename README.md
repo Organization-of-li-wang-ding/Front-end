@@ -8,7 +8,7 @@
 #### test界面留作日后使用
 #### blog界面是静态博客网页。同时我们实现了一个用户管理侧边栏。
 #### 网页页脚是一个固定的导航。
-#### githubpage https://organization-of-li-wang-ding.github.io/Front-end/
+#### githubpage https://organization-of-li-wang-ding.github.io/
 
 
 
